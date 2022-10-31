@@ -30,8 +30,9 @@ if A == 2:
 
     for i in range(m):
         a.append(int(input()))
-
-    print(sorted(a))
+    a.sort()
+   
+    print(a)
 
     # Ну в тырнетах написано, что это n*logn
 
